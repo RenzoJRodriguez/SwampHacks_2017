@@ -3,8 +3,6 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/LeapStyle.css">
 
     <script src="https://js.leapmotion.com/leap-0.6.4.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/threejs/r76/three.min.js"></script>
@@ -16,7 +14,8 @@
     <script src="js/typingText.js"></script>
     <script src="js/script.js"></script>
     <script src="http://chancejs.com/chance.min.js"></script>
-    <script src="leap.js"></script>
+    <script src="js/leap.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <!--Steven Inclusion-->
@@ -33,18 +32,11 @@
      </div>
 <!---->
 <!--<body onload2="checkLibrary()">-->
-<!--    <div id = 'field'>-->
-<!--        <div id="test"></div>-->
-<!--        <img id='ball' src="aimer.png"/>-->
-<!--        -->
-<!--        <div id="test"></div> -->
-<!--    </div>-->
-<!--    -->
-<!--    -->
+
 <!--</body>-->
 
-     <body id="body" onload2="checkLibrary()">
-       <div class="row" style="inline-block">
+     <body id="field" class="body" onload2="checkLibrary()">
+       <div id="mainMenu" class="row" style="inline-block">
             <!-- Lahari's inserts -->
             <div class="col-md-6" id="img">
                <img src="images/ironMan.png">
@@ -57,18 +49,22 @@
             <div class="col-md-4" id="start">
               <button id="startButton" class="answerButtons pure-button">START</button>
             </div>
+
+            <!-- <div class="col-md-8 col-md-offset-4" id="introtext">
+                 <p id="intro"></p>
+            </div> -->
+
        </div>
 
-       <div class="col-md-8 col-md-offset-4" id="introtext">
-            <p id="intro"></p>
-       </div>
 
+
+       <img id='ball' src="images/aimer.png"/>
         <!--HTML for Questions-->
         <div id="questionSet" class="text-center">
                 <div id="questionDiv"></div>
 
-                <button id="button1" class="answerButtons pure-button">Answer 1</button>
-                <button id="button2" class="answerButtons pure-button">Answer 2</button>
+                <button id="button1" class="answerButtons pure-button"></button>
+                <button id="button2" class="answerButtons pure-button"></button>
         </div>
      </body>
 

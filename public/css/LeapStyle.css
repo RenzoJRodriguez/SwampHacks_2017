@@ -1,19 +1,4 @@
-#ball {
-  position: absolute;
-  height: 150px;
-  width: 150px;
-  border-radius: 150px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  /*width: 50%;*/
-  margin: 0 auto;
-}
 
-#field {
-  height: 100%;
-	width: 100%;
-  background-image: url(JarvisBackround.png);
-}
 
 /*#test {
   position: absolute;

@@ -1,4 +1,4 @@
-#body{
+.body{
      background-color: #010811;
      font-family: 'Source Code Pro', monospace;
 }
@@ -53,19 +53,43 @@
 }
 
 .answerButtons{
+    position: absolute;
      height: 5em;
      width: 15%;
      margin-right: 20%;
+     top: 50%;
+     right:-50px
 }
+.pure-button
+{
+  border: 3px solid green;
+}
+
 
 #questionsPage{
      background-color: #000000;
 }
 
-.regularText{
-     color: red;
+#ball {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*width: 50%;*/
+  margin: 0 auto;
+  z-index: 0;
 }
 
-#question1, #question2, #question3, #question4, #question5{
-     align-content: center;
+#field {
+  height: 100%;
+	width: 100%;
+  background-image: "images/JarvisBackround.png";
+}
+
+#questionDiv
+{
+  color: white;
+  font-size: 40px;
 }
