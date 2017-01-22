@@ -1,13 +1,21 @@
-var questionArray = ["What's a dab","How much salt","Naruto run?","What's this? *does finger stuff*","Infinite looove"];
-var answerArray = [["Answer1","Answer2"],
-                   ["Answer1","Answer2"],
-                   ["Answer1","Answer2"],
-                   ["Answer1","Answer2"],
-                   ["Answer1","Answer2"]];
+var questionArray = ["Jarvis can do many things. He has many \"functions.\" Like jarvis.compute() and jarvis.initiate(). If I wanted him to wake me up for my Avenger's meeting, I would ask him to use what function?",
+                     "There are many data types for computers. A data type lets a computer know what kind of information it is receiving. What looks like it would be a data type?",
+                     "In programming, there are \"Cause-and-Effect\" statements that mimic if-then situations. For example, if I call Bruce Banner a nerd...",
+                     "Sometimes it is useful to do things more than once. This is when loops are useful; If I need my fifth suit, I would loop through my armory cycle five times. So, if Captain America needs his 5th shield out of 10 specialized combat shields, he would only need to loop how many times?",
+                     "Objects are collections of data types represented in what we programmers call \"classes.\" They are used to represent an idea or something real, like a person, through their data or properties. An example of this would be: \nclass person \n{ int numOfLegs = 2; \nstring hairColor = Black;\n} \nWhat would be an example of anå Iron Man class?"];
+var answerArray = [["jarvis.terminate();","jarvis.alarm();"],
+                   ["Thor's Hammer","Numbers"],
+                   ["I get an extra shawarma for lunch.","I get hulk-\"smashed\""],
+                   ["10","5"],
+                   ["course ironMan { \nint suits = 89; \nstring name = \"Robert Downey Jr.\";\n}","class ironMan { \nint suits = 89; \nstring name = \"Tony Stark\";}"]];
 
 var currentQuestion = 0;
 var currentAnswer;
 var isCollided = false;
+
+
+var audio = new Audio('../public/music/hero.mp3');
+audio.play();
 
 function setQuestionAndArray()
 {
@@ -64,7 +72,6 @@ function gameOver()
 });
 
 }
-
 
 $(document).ready(function() {
       // var test = $('#test'); //testing collision function
