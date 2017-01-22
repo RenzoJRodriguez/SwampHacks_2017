@@ -21,7 +21,7 @@ $(document).ready(
           //Lahari's insert
               $("#intro").typed({
 
-                strings: ["My name is Tony Stark, and I need your help."],
+                strings: ["My name is Tony Stark, also known as Iron Man. J.A.R.V.I.S, my AI system, seems to have some bugs and I need your help to fix them. Are you up to the challenge? "],
                 typeSpeed: 60,
              //    startDelay: 2000,
                 showCursor: false,
