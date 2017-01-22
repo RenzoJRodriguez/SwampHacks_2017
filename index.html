@@ -1,82 +1,27 @@
-<!DOCTYPE HTML>
-
 <html>
+  <head>
+    <title>Leap JavaScript Sample</title>
 
-     <head>
-
-          <link rel="stylesheet" type="text/css" href="css/style.css">
-          <script src="js/jquery-3.1.1.min.js"></script>
-          <script src="js/pageTransition.js"></script>
-          <script src="js/typed.js"></script>
-          <script src="js/typingText.js"></script>
-          <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
-
-     </head>
-
-     <body id="body">
-
-               <!--HTML for Main Menu-->
-          <div id="mainMenu">
-
-               <div id="titleDiv">
-                    <p id="appName"></p>
-               </div>
-
-               <button id="startButton"><strong>Start</strong></button>
-
-          </div>
-
-               <!--HTML for Question #1-->
-               <div id="question1">
-
-                         <p class="regularText">Question 1</p><br>
-                         <p></p>
-                         <button id="answer1-1" class="answerButtons">Answer 1</button>
-                         <button id="answer1-2" class="answerButtons">Answer 2</button>
-
-               </div>
-
-               <!--HTML for Question #2-->
-               <div id="question2">
-
-                         <p class="regularText">Question 2</p><br>
-                         <p></p>
-                         <button id="answer2-1" class="answerButtons">Answer 1</button>
-                         <button id="answer2-2" class="answerButtons">Answer 2</button>
-
-               </div>
-
-               <!--HTML for Question #3-->
-               <div id="question3">
-
-                         <p class="regularText">Question 3</p><br>
-                         <p></p>
-                         <button id="answer3-1" class="answerButtons">Answer 1</button>
-                         <button id="answer3-2" class="answerButtons">Answer 2</button>
-
-               </div>
-
-               <!--HTML for Question #4-->
-               <div id="question4">
-
-                         <p class="regularText">Question 4</p><br>
-                         <p></p>
-                         <button id="answer4-1" class="answerButtons">Answer 1</button>
-                         <button id="answer4-2" class="answerButtons">Answer 2</button>
-
-               </div>
-
-               <!--HTML for Question #5-->
-               <div id="question5">
-
-                         <p class="regularText">Question 5</p><br>
-                         <p></p>
-                         <button id="answer5-1" class="answerButtons">Answer 1</button>
-                         <button id="answer5-2" class="answerButtons">Answer 2</button>
-
-               </div>
+    <script src="https://js.leapmotion.com/leap-0.6.4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/threejs/r76/three.min.js"></script>
+    <script src="https://js.leapmotion.com/leap-plugins-0.1.12.js"></script>
+    <script src="https://js.leapmotion.com/leap.rigged-hand-0.1.7.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="LeapStyle.css">
+    <script src="script.js"></script>
+    <script src="leap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 
-     </body>
+  </head>
+  <body onload2="checkLibrary()">
+    <div id = 'field'>
+      <div id="test"></div>
+      <img id='ball' src="aimer.png"/>
 
+      <!-- <div id="test"></div> -->
+    </div>
+
+
+  </body>
 </html>
