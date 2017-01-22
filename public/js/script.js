@@ -67,7 +67,6 @@ function collision($div1, $div2)
 
 $(document).ready(
                   function() {
-                  
                   var test = $('#test'); //testing collision function
                   var ball = $('#ball');
                   var fired = false;
@@ -85,18 +84,14 @@ $(document).ready(
                   var leapConstY = 219.0;
 
                   
-                  //div for
+                  //div hidden for questions and answers
                   $("#questionSet").hide();
                   
                   //initial start occurs
                   if(collision($("#startButton"),cursor))
                   {
-                    function(){
                     $("#mainMenu").fadeOut();
                     setQuestionAndArray();
-                  
-                    }
-                    );
                   }
 
                   cursor = ball;
