@@ -1,6 +1,13 @@
+
 .body{
      background-color: #010811;
      font-family: 'Source Code Pro', monospace;
+}
+
+#field {
+  height: 100%;
+	width: 100%;
+  background-image: url(../images/JarvisBackround.png);
 }
 
 #appName {
@@ -67,7 +74,7 @@
 
 
 #questionsPage{
-     background-color: #000000;
+     background-color: transparent;
 }
 
 #ball {
@@ -79,7 +86,7 @@
   background-repeat: no-repeat;
   /*width: 50%;*/
   margin: 0 auto;
-  z-index: 0;
+  z-index: 2;
 }
 
 #field {

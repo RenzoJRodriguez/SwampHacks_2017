@@ -4,7 +4,7 @@ $(document).ready(
 
       $("#appName").typed({
 
-        strings: ["Name of App Here"],
+        strings: ["Mission Debug"],
         typeSpeed: 60,
      //    startDelay: 2000,
         showCursor: false,
