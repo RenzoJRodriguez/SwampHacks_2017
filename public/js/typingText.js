@@ -22,8 +22,8 @@ $(document).ready(
               $("#intro").typed({
 
                 strings: ["My name is Tony Stark, also known as Iron Man. J.A.R.V.I.S, my AI system, seems to have some bugs and I need your help to fix them. Are you up to the challenge? "],
-                typeSpeed: 60,
-             //    startDelay: 2000,
+                typeSpeed: 10,
+                 startDelay: 2000,
                 showCursor: false,
                   });
 

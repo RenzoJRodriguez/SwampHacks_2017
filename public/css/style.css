@@ -10,13 +10,17 @@
      color: #00D9E9;
 }
 
-/*#titleDiv{*/
-     /*border: 1px solid white;*/
-     /*padding: 0px;*/
-     /*display: inline-block;
-     align-content: center;
-     margin-left: 40%;
-}*/
+#start{
+  margin-top: 350px;
+  position: fixed;
+  z-index: 1;
+  margin-left: 650px;
+
+}
+
+.row{
+  display: inline;
+}
 
 #title{
   margin-top: 20px;
@@ -25,6 +29,11 @@
 #img{
   /*border: 3px solid green;*/
   top: 0;
+}
+
+#introtext{
+  margin-top: 40px;
+  font-size: 25px;
 }
 
 #intro{

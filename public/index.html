@@ -17,7 +17,7 @@
     <script src="js/script.js"></script>
     <script src="http://chancejs.com/chance.min.js"></script>
     <script src="leap.js"></script>
-    
+
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <!--Steven Inclusion-->
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
@@ -37,23 +37,28 @@
 <!--        <div id="test"></div>-->
 <!--        <img id='ball' src="aimer.png"/>-->
 <!--        -->
-<!--        <!-- <div id="test"></div> -->
+<!--        <div id="test"></div> -->
 <!--    </div>-->
 <!--    -->
 <!--    -->
 <!--</body>-->
 
      <body id="body" onload2="checkLibrary()">
-       <div class="row">
+       <div class="row" style="inline-block">
             <!-- Lahari's inserts -->
             <div class="col-md-6" id="img">
                <img src="images/ironMan.png">
             </div>
 
-            <div class="col-md-6 col-md-offset-4" id="introtext">
+            <div class="col-md-6" id="introtext">
                 <p id="intro"></p>
             </div>
+
+            <div class="col-md-4" id="start">
+              <button id="startButton" class="answerButtons pure-button">START</button>
+            </div>
        </div>
+
        <div class="col-md-8 col-md-offset-4" id="introtext">
             <p id="intro"></p>
        </div>
