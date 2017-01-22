@@ -9,7 +9,7 @@
     <script src="js/pageTransition.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/typingText.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <!--Steven Inclusion-->
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
@@ -24,65 +24,24 @@
      </div>
 
      <body id="body">
-        <!-- Lahari's inserts -->
-        <div class="col-md-8" id="img">
-          <img src="images/ironMan.png">
+       <div class="row">
+          <!-- Lahari's inserts -->
+          <div class="col-md-6" id="img">
+            <img src="images/ironMan.png">
+          </div>
+
+          <div class="col-md-6 col-md-offset-4" id="introtext">
+            <p id="intro"></p>
+          </div>
         </div>
 
-        <div class="col-md-8 col-md-offset-4" id="introtext">
-          <p id="intro"></p>
-        </div>
+      <!--HTML for Questions-->
+         <div id="questionSet" class="text-center">
 
-               <!--HTML for Question #1-->
-               <div id="question1">
-
-                         <p class="regularText">Question 1</p><br>
-                         <p></p>
-                         <button id="answer1-1" class="answerButtons">Answer 1</button>
-                         <button id="answer1-2" class="answerButtons">Answer 2</button>
-
-               </div>
-
-               <!--HTML for Question #2-->
-               <div id="question2">
-
-                         <p class="regularText">Question 2</p><br>
-                         <p></p>
-                         <button id="answer2-1" class="answerButtons">Answer 1</button>
-                         <button id="answer2-2" class="answerButtons">Answer 2</button>
-
-               </div>
-
-               <!--HTML for Question #3-->
-               <div id="question3">
-
-                         <p class="regularText">Question 3</p><br>
-                         <p></p>
-                         <button id="answer3-1" class="answerButtons">Answer 1</button>
-                         <button id="answer3-2" class="answerButtons">Answer 2</button>
-
-               </div>
-
-               <!--HTML for Question #4-->
-               <div id="question4">
-
-                         <p class="regularText">Question 4</p><br>
-                         <p></p>
-                         <button id="answer4-1" class="answerButtons">Answer 1</button>
-                         <button id="answer4-2" class="answerButtons">Answer 2</button>
-
-               </div>
-
-               <!--HTML for Question #5-->
-               <div id="question5">
-
-                         <p class="regularText">Question 5</p><br>
-                         <p></p>
-                         <button id="answer5-1" class="answerButtons">Answer 1</button>
-                         <button id="answer5-2" class="answerButtons">Answer 2</button>
-
-               </div>
-
+              <div id="questionDiv"></div>
+                  <button id="button1" class="answerButtons pure-button">Answer 1</button>
+                  <button id="button2" class="answerButtons pure-button">Answer 2</button>
+             </div>
 
      </body>
 
