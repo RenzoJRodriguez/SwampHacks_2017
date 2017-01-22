@@ -1,9 +1,10 @@
 #body{
-     background-color: #031328;
+     background-color: #010811;
+     font-family: 'Source Code Pro', monospace;
 }
 
 #appName {
-     font-family: Share Tech;
+
      font-size: 5em;
      text-align: center;
      color: #00D9E9;
@@ -22,7 +23,13 @@
 }
 
 #img{
-  border: 3px solid green;
+  /*border: 3px solid green;*/
+  top: 0;
+}
+
+#intro{
+  color: #d1ebfc
+  /*font-size: 30px;*/
 }
 
 #startButton{
